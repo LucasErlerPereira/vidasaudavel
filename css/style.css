@@ -27,6 +27,7 @@ header {
 
 .banner {
     background-image: url("../images/atleta-comemorando.jpg");
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -76,4 +77,10 @@ header {
 
 .tutorials .title-block{
 margin: 0 auto;
+}
+
+@media screen and (max-widht: 400px) {
+    .banner {
+        min-height: 300px;
+    }
 }
