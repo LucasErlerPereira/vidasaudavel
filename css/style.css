@@ -1,0 +1,47 @@
+.banner {
+    background-image: url("../images/atleta-comemorando.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
+}
+
+.banner-overlay {
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    top: 56px;
+    left: 0;
+    width: 100%;
+    height: 600px;
+}
+
+.title-block {
+    max-width: 900px;
+}
+
+.banner .title-block {
+    max-width: 400px;
+}
+
+.title-block > h2 {
+    font-size: 2.6rem;
+}
+
+.title-block > h3 {
+    font-size: 2.3rem;
+}
+
+.title-block > p {
+    font-size: 1.4rem;
+}
+
+.how-start {
+    /* background-color: chartreuse; */
+}
+
+
+
+.tutorials .title-block{
+margin: 0 auto;
+}
