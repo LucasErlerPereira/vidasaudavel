@@ -74,13 +74,17 @@ header {
 }
 
 
-
 .tutorials .title-block{
 margin: 0 auto;
 }
 
-@media screen and (max-widht: 400px) {
+@media screen and (max-width: 480px) {
     .banner {
+        background-color: #48beff;
+        background-image: none;
         min-height: 300px;
+    }
+    .banner-overlay {
+        opacity: 0;
     }
 }
