@@ -1,3 +1,29 @@
+body h2, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #f2ffeb;
+}
+
+body p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #f3f5f1;
+}
+
+body a {
+    color: #f2ffeb;
+    text-decoration: none;
+}
+
+body a:hover {
+    color: #c4cfbd;
+    text-decoration: none;
+}
+
+header {
+    background-color: #4cbd0f;
+}
+
 .banner {
     background-image: url("../images/atleta-comemorando.jpg");
     background-size: cover;
@@ -20,6 +46,7 @@
     max-width: 900px;
 }
 
+
 .banner .title-block {
     max-width: 400px;
 }
@@ -37,7 +64,11 @@
 }
 
 .how-start {
-    /* background-color: chartreuse; */
+    background-image: linear-gradient(to bottom right, #48beff, #5ee513);
+}
+
+.tutorials {
+    background-image: linear-gradient(to bottom right, #48beff, #BF1A2F);
 }
 
 
