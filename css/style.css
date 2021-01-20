@@ -5,13 +5,13 @@ body h2, h3 {
     color: #f2ffeb;
 }
 
-body p {
+body p, a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     color: #f3f5f1;
 }
 
-body a {
+body a, .navbar-dark .navbar-nav .nav-link {
     color: #f2ffeb;
     text-decoration: none;
 }
@@ -25,31 +25,41 @@ header {
     background-color: #4cbd0f;
 }
 
+
 .banner {
-    background-image: url("../images/atleta-comemorando.jpg");
+    background: url("../images/atleta-comemorando.jpg");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 600px;
+    position: relative;
+
 }
 
-.banner-overlay {
-    position: absolute;
+.banner::after {
+    content: '';
     background-color: black;
-    opacity: 0.4;
-    top: 56px;
-    left: 0;
-    width: 100%;
-    height: 600px;
+    opacity: 0.5;
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index: 1;
 }
+
 
 .title-block {
     max-width: 900px;
 }
 
+.banner .row {
+    z-index: 2;
+}
 
-.banner .title-block {
+
+.banner .title-block, .footer .title-block {
     max-width: 400px;
 }
 
@@ -73,10 +83,26 @@ header {
     background-image: linear-gradient(to bottom right, #48beff, #BF1A2F);
 }
 
+.exercises {
+    background-image: linear-gradient(to bottom right, #5ee513, #48beff);
+}
 
 .tutorials .title-block{
 margin: 0 auto;
 }
+
+.footer {
+    background-color: #4cbd0f;
+}
+
+.footer p, a {
+    color: #f2ffeb; 
+}
+
+.footer .title-block > h3 {
+    font-size: 1.8rem;
+}
+
 
 @media screen and (max-width: 480px) {
     .banner {
