@@ -40,7 +40,7 @@ header {
 
 }
 
-.banner::after {
+/* .banner::after {
     content: '';
     background-color: black;
     opacity: 0.5;
@@ -50,7 +50,7 @@ header {
     left:0;
     top:0;
     z-index: 1;
-}
+} */
 
 
 .title-block {
