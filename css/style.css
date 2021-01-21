@@ -31,12 +31,12 @@ header {
 
 .banner {
     background: url("../images/atleta-comemorando.jpg");
-    width: 100%;
+    /* width: 100%; */
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: center;
     min-height: 600px;
     position: relative;
+    padding: 250px 0 200px;
 
 }
 
